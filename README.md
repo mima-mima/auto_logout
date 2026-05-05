@@ -1,4 +1,7 @@
 ## auto_logout py3
+
+Merged a few tweaks back from sheacraig's master branch from a few years ago. Have an idea to work on with creating and then checking for presence of a file to work around being treated as a crash on logout and generating automatic respawn reboot loop issues.
+
 This fork is an attempt to run under newer macOS builds that have dropped support for Python2.
 I have run the main script through `2to3` and made some minor tweaks to keep data types happy. So far it has had MINIMAL testing and should not be considered production-ready.
 
